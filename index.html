@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Vacation Planner</title>   
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        <script src="header.js" charset="utf-8"></script>
+        <script src="script.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <div id="bckgdimg" >
+            <header class="hold">                    
+                <img class="slides slides-hidden" id="header1" src="images/1.jpg" alt="1">
+                <img class="slides slides-hidden" id="header2" src="images/2.jpg" alt="2">
+                <img class="slides slides-hidden" id="header3" src="images/3.jpg" alt="3">
+                <img class="slides slides-hidden" id="header4" src="images/4.jpg" alt="4">
+                <div class="centered">
+                    <h1 id="webtitle">Easy Vacation</h1>
+                </div>
+            </header>
+            <div class="leather">
+                <nav>
+                    <ul class="homeNav">
+                        <li class="accomm"><a href="accommodation.php">Accommodation</a></li>
+                        <li class="activ"><a href="activities.php">Activities</a></li>
+                    </ul>
+                </nav>
+                <main class="home">
+                    <img class="stamp" src="images/bon-voyage-red-vector-grunge-style-rubber-stamp-91688597.webp">
+                    <br>
+                    <div class="homePad">
+                        <h2>Welcome to Easy Vacation</h2>
+                        <section class="homePage">
+                            <p id="indexP">A place, where you can store your vacation ideas.
+                                <br>
+                                Make a note of your vacation Accommodation Information.
+                                <br>
+                                &
+                                <br>
+                                Create your own Bucket List
+                            </p>
+                            <p id="desktopP">
+                                You can start by tracking your upcoming flight :)
+                            </p>
+                            <div id="div-id">
+                                <iframe src="https://www.ifly.com/flight-tracker" id="iframe-track" scrolling="yes"></iframe>
+                            </div>
+                        </section>
+                    </div>
+                    <br>
+                    <footer>
+                        Jana Krizanova CPSC2030 Project
+                    </footer>
+                </main>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+        <script src="g.js"></script>
+    </body>
+</html>
