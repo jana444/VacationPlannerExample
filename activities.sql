@@ -37,9 +37,9 @@ CREATE TABLE `activities` (
 --
 
 INSERT INTO `activities` (`ID`, `activity`) VALUES
-(1, 'fix this'),
-(10, 'swim'),
-(18, 'avocado');
+(1, 'zip line'),
+(2, 'swim'),
+(3, 'jet ski');
 
 --
 -- Indexes for dumped tables
