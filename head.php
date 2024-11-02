@@ -8,5 +8,5 @@
 <script src="header.js" charset="utf-8"></script>
 <script type="text/javascript" src="script.js"></script>
 <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDt6Anl53NQGMYZCTHoVBMVoHhP7LYvT_A&callback=initMap&libraries=places&v=weekly"></script>
+    src="https://maps.googleapis.com/maps/api/js?key=xxx&callback=initMap&libraries=places&v=weekly"></script>
 <script type="text/javascript" src="map.js"></script>
